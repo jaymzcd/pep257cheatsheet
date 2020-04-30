@@ -5,13 +5,13 @@
 	<key>CFBundleIdentifier</key>
 	<string>cheatsheet</string>
 	<key>CFBundleName</key>
-	<string>PEP8 Codes</string>
+	<string>Pydocstyle PEP257 Codes</string>
 	<key>DashDocSetFamily</key>
 	<string>cheatsheet</string>
 	<key>DashDocSetKeyword</key>
-	<string>pep8</string>
+	<string>pep257</string>
 	<key>DashDocSetPluginKeyword</key>
-	<string>pep8</string>
+	<string>pep257</string>
 	<key>DocSetPlatformFamily</key>
 	<string>cheatsheet</string>
 	<key>dashIndexFilePath</key>

@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>Pydocstyle PEP257 Codes</title>
+<link href='style.css' rel='stylesheet'>
+<link href='//dash_ref/Category/E1 Indentation/1'>
+<link href='//dash_ref_E1 Indentation/Entry/E101 indentation contains mixed spaces and tabs/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E111 indentation is not a multiple of four/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E112 expected an indented block/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E113 unexpected indentation/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E114 indentation is not a multiple of four (comment)/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E115 expected an indented block (comment)/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E116 unexpected indentation (comment)/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E117 over-indented/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E121 (*^) continuation line under-indented for hanging indent/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E122 (^) continuation line missing indentation or outdented/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E123 (*) closing bracket does not match indentation of opening bracket’s line/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E124 (^) closing bracket does not match visual indentation/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E125 (^) continuation line with same indent as next logical line/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E126 (*^) continuation line over-indented for hanging indent/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E127 (^) continuation line over-indented for visual indent/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E128 (^) continuation line under-indented for visual indent/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E129 (^) visually indented line with same indent as next logical line/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E131 (^) continuation line unaligned for hanging indent/0'>
+<link href='//dash_ref_E1 Indentation/Entry/E133 (*) closing bracket is missing indentation/0'>
+<link href='//dash_ref/Category/E2 Whitespace/1'>
+<link href='//dash_ref_E2 Whitespace/Entry/E201 whitespace after ‘(‘/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E202 whitespace before ‘)’/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E203 whitespace before ‘:’/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E211 whitespace before ‘(‘/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E221 multiple spaces before operator/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E222 multiple spaces after operator/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E223 tab before operator/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E224 tab after operator/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E225 missing whitespace around operator/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E226 (*) missing whitespace around arithmetic operator/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E227 missing whitespace around bitwise or shift operator/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E228 missing whitespace around modulo operator/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E231 missing whitespace after ‘,’, ‘;’, or ‘:’/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E241 (*) multiple spaces after ‘,’/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E242 (*) tab after ‘,’/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E251 unexpected spaces around keyword %2F parameter equals/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E261 at least two spaces before inline comment/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E262 inline comment should start with ‘# ‘/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E265 block comment should start with ‘# ‘/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E266 too many leading ‘#’ for block comment/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E271 multiple spaces after keyword/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E272 multiple spaces before keyword/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E273 tab after keyword/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E274 tab before keyword/0'>
+<link href='//dash_ref_E2 Whitespace/Entry/E275 missing whitespace after keyword/0'>
+<link href='//dash_ref/Category/E3 Blank line/1'>
+<link href='//dash_ref_E3 Blank line/Entry/E301 expected 1 blank line, found 0/0'>
+<link href='//dash_ref_E3 Blank line/Entry/E302 expected 2 blank lines, found 0/0'>
+<link href='//dash_ref_E3 Blank line/Entry/E303 too many blank lines (3)/0'>
+<link href='//dash_ref_E3 Blank line/Entry/E304 blank lines found after function decorator/0'>
+<link href='//dash_ref_E3 Blank line/Entry/E305 expected 2 blank lines after end of function or class/0'>
+<link href='//dash_ref_E3 Blank line/Entry/E306 expected 1 blank line before a nested definition/0'>
+<link href='//dash_ref/Category/E4 Import/1'>
+<link href='//dash_ref_E4 Import/Entry/E401 multiple imports on one line/0'>
+<link href='//dash_ref_E4 Import/Entry/E402 module level import not at top of file/0'>
+<link href='//dash_ref/Category/E5 Line length/1'>
+<link href='//dash_ref_E5 Line length/Entry/E501 (^) line too long (82 &gt; 79 characters)/0'>
+<link href='//dash_ref_E5 Line length/Entry/E502 the backslash is redundant between brackets/0'>
+<link href='//dash_ref/Category/E7 Statement/1'>
+<link href='//dash_ref_E7 Statement/Entry/E701 multiple statements on one line (colon)/0'>
+<link href='//dash_ref_E7 Statement/Entry/E702 multiple statements on one line (semicolon)/0'>
+<link href='//dash_ref_E7 Statement/Entry/E703 statement ends with a semicolon/0'>
+<link href='//dash_ref_E7 Statement/Entry/E704 (*) multiple statements on one line (def)/0'>
+<link href='//dash_ref_E7 Statement/Entry/E711 (^) comparison to None should be ‘if cond is None:’/0'>
+<link href='//dash_ref_E7 Statement/Entry/E712 (^) comparison to True should be ‘if cond is True:’ or ‘if cond:’/0'>
+<link href='//dash_ref_E7 Statement/Entry/E713 test for membership should be ‘not in’/0'>
+<link href='//dash_ref_E7 Statement/Entry/E714 test for object identity should be ‘is not’/0'>
+<link href='//dash_ref_E7 Statement/Entry/E721 (^) do not compare types, use ‘isinstance()’/0'>
+<link href='//dash_ref_E7 Statement/Entry/E722 do not use bare except, specify exception instead/0'>
+<link href='//dash_ref_E7 Statement/Entry/E731 do not assign a lambda expression, use a def/0'>
+<link href='//dash_ref_E7 Statement/Entry/E741 do not use variables named ‘l’, ‘O’, or ‘I’/0'>
+<link href='//dash_ref_E7 Statement/Entry/E742 do not define classes named ‘l’, ‘O’, or ‘I’/0'>
+<link href='//dash_ref_E7 Statement/Entry/E743 do not define functions named ‘l’, ‘O’, or ‘I’/0'>
+<link href='//dash_ref/Category/E9 Runtime/1'>
+<link href='//dash_ref_E9 Runtime/Entry/E901 SyntaxError or IndentationError/0'>
+<link href='//dash_ref_E9 Runtime/Entry/E902 IOError/0'>
+<link href='//dash_ref/Category/W1 Indentation warning/1'>
+<link href='//dash_ref_W1 Indentation warning/Entry/W191 indentation contains tabs/0'>
+<link href='//dash_ref/Category/W2 Whitespace warning/1'>
+<link href='//dash_ref_W2 Whitespace warning/Entry/W291 trailing whitespace/0'>
+<link href='//dash_ref_W2 Whitespace warning/Entry/W292 no newline at end of file/0'>
+<link href='//dash_ref_W2 Whitespace warning/Entry/W293 blank line contains whitespace/0'>
+<link href='//dash_ref/Category/W3 Blank line warning/1'>
+<link href='//dash_ref_W3 Blank line warning/Entry/W391 blank line at end of file/0'>
+<link href='//dash_ref/Category/W5 Line break warning/1'>
+<link href='//dash_ref_W5 Line break warning/Entry/W503 (*) line break before binary operator/0'>
+<link href='//dash_ref_W5 Line break warning/Entry/W504 (*) line break after binary operator/0'>
+<link href='//dash_ref_W5 Line break warning/Entry/W505 (*^) doc line too long (82 &gt; 79 characters)/0'>
+<link href='//dash_ref/Category/W6 Deprecation warning/1'>
+<link href='//dash_ref_W6 Deprecation warning/Entry/W601 .has_key() is deprecated, use &quot;in&quot;/0'>
+<link href='//dash_ref_W6 Deprecation warning/Entry/W602 deprecated form of raising exception/0'>
+<link href='//dash_ref_W6 Deprecation warning/Entry/W603 &quot;&lt;&gt;&quot; is deprecated, use &quot;!=&quot;/0'>
+<link href='//dash_ref_W6 Deprecation warning/Entry/W604 backticks are deprecated, use ‘repr()’/0'>
+<link href='//dash_ref_W6 Deprecation warning/Entry/W605 invalid escape sequence ‘x’/0'>
+<link href='//dash_ref_W6 Deprecation warning/Entry/W606 ‘async’ and ‘await’ are reserved keywords starting with Python 3.7/0'>
+<link href='//dash_ref/Category/Flake8/1'>
+<link href='//dash_ref_Flake8/Entry/F401 module imported but unused/0'>
+<link href='//dash_ref_Flake8/Entry/F402 import module from line N shadowed by loop variable/0'>
+<link href='//dash_ref_Flake8/Entry/F403 ‘from module import *’ used; unable to detect undefined names/0'>
+<link href='//dash_ref_Flake8/Entry/F404 future import(s) name after other statements/0'>
+<link href='//dash_ref_Flake8/Entry/F405 name may be undefined, or defined from star imports: module/0'>
+<link href='//dash_ref_Flake8/Entry/F406 ‘from module import *’ only allowed at module level/0'>
+<link href='//dash_ref_Flake8/Entry/F407 an undefined future feature name was imported/0'>
+<link href='//dash_ref_Flake8/Entry/F501 invalid % format literal/0'>
+<link href='//dash_ref_Flake8/Entry/F502 % format expected mapping but got sequence/0'>
+<link href='//dash_ref_Flake8/Entry/F503 % format expected sequence but got mapping/0'>
+<link href='//dash_ref_Flake8/Entry/F504 % format unused named arguments/0'>
+<link href='//dash_ref_Flake8/Entry/F505 % format missing named arguments/0'>
+<link href='//dash_ref_Flake8/Entry/F506 % format mixed positional and named arguments/0'>
+<link href='//dash_ref_Flake8/Entry/F507 % format mismatch of placeholder and argument count/0'>
+<link href='//dash_ref_Flake8/Entry/F508 % format with * specifier requires a sequence/0'>
+<link href='//dash_ref_Flake8/Entry/F509 % format with unsupported format character/0'>
+<link href='//dash_ref_Flake8/Entry/F521 format(...) invalid format string/0'>
+<link href='//dash_ref_Flake8/Entry/F522 format(...) unused named arguments/0'>
+<link href='//dash_ref_Flake8/Entry/F523 format(...) unused positional arguments/0'>
+<link href='//dash_ref_Flake8/Entry/F524 format(...) missing argument/0'>
+<link href='//dash_ref_Flake8/Entry/F525 format(...) mixing automatic and manual numbering/0'>
+<link href='//dash_ref_Flake8/Entry/F541 f-string without any placeholders/0'>
+<link href='//dash_ref_Flake8/Entry/F601 dictionary key name repeated with different values/0'>
+<link href='//dash_ref_Flake8/Entry/F602 dictionary key variable name repeated with different values/0'>
+<link href='//dash_ref_Flake8/Entry/F621 too many expressions in an assignment with star-unpacking/0'>
+<link href='//dash_ref_Flake8/Entry/F622 two or more starred expressions in an assignment (a, *b, *c = d)/0'>
+<link href='//dash_ref_Flake8/Entry/F631 assertion test is a tuple, which is always True/0'>
+<link href='//dash_ref_Flake8/Entry/F632 use ==%2F!= to compare str, bytes, and int literals/0'>
+<link href='//dash_ref_Flake8/Entry/F633 use of &gt;&gt; is invalid with print function/0'>
+<link href='//dash_ref_Flake8/Entry/F634 if test is a tuple, which is always True/0'>
+<link href='//dash_ref_Flake8/Entry/F701 a break statement outside of a while or for loop/0'>
+<link href='//dash_ref_Flake8/Entry/F702 a continue statement outside of a while or for loop/0'>
+<link href='//dash_ref_Flake8/Entry/F703 a continue statement in a finally block in a loop/0'>
+<link href='//dash_ref_Flake8/Entry/F704 a yield or yield from statement outside of a function/0'>
+<link href='//dash_ref_Flake8/Entry/F705 a return statement with arguments inside a generator/0'>
+<link href='//dash_ref_Flake8/Entry/F706 a return statement outside of a function%2Fmethod/0'>
+<link href='//dash_ref_Flake8/Entry/F707 an except: block as not the last exception handler/0'>
+<link href='//dash_ref_Flake8/Entry/F721 syntax error in doctest/0'>
+<link href='//dash_ref_Flake8/Entry/F722 syntax error in forward annotation/0'>
+<link href='//dash_ref_Flake8/Entry/F723 syntax error in type comment/0'>
+<link href='//dash_ref_Flake8/Entry/F811 redefinition of unused name from line N/0'>
+<link href='//dash_ref_Flake8/Entry/F812 list comprehension redefines name from line N/0'>
+<link href='//dash_ref_Flake8/Entry/F821 undefined name name/0'>
+<link href='//dash_ref_Flake8/Entry/F822 undefined name name in all/0'>
+<link href='//dash_ref_Flake8/Entry/F823 local variable name … referenced before assignment/0'>
+<link href='//dash_ref_Flake8/Entry/F831 duplicate argument name in function definition/0'>
+<link href='//dash_ref_Flake8/Entry/F841 local variable name is assigned to but never used/0'>
+<link href='//dash_ref_Flake8/Entry/F901 raise NotImplemented should be raise NotImplementedError/0'>
+</head>
+<body>
+<header>
+<h1>Pydocstyle PEP257 Codes</h1>
+</header>
+<article>
+<p><p>A list of Pydocstyle (PEP257) errors, warnings and codes
+(<a href="https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes">https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes</a>). This sheet
+also includes the Flake8 errors
+(<a href="https://flake8.pycqa.org/en/latest/user/error-codes.html#error-violation-codes">https://flake8.pycqa.org/en/latest/user/error-codes.html#error-violation-codes</a>).</p>
+</p>
+<section class='category'>
+<h2 id='//dash_ref/Category/E1 Indentation/1'>
+E1 Indentation
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_E1 Indentation/Entry/E101 indentation contains mixed spaces and tabs/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E101 indentation contains mixed spaces and tabs</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E111 indentation is not a multiple of four/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E111 indentation is not a multiple of four</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E112 expected an indented block/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E112 expected an indented block</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E113 unexpected indentation/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E113 unexpected indentation</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E114 indentation is not a multiple of four (comment)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E114 indentation is not a multiple of four (comment)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E115 expected an indented block (comment)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E115 expected an indented block (comment)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E116 unexpected indentation (comment)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E116 unexpected indentation (comment)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E117 over-indented/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E117 over-indented</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E121 (*^) continuation line under-indented for hanging indent/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E121 (*^)   continuation line under-indented for hanging indent</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E122 (^) continuation line missing indentation or outdented/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E122 (^)    continuation line missing indentation or outdented</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E123 (*) closing bracket does not match indentation of opening bracket’s line/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E123 (*)    closing bracket does not match indentation of opening bracket’s line</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E124 (^) closing bracket does not match visual indentation/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E124 (^)    closing bracket does not match visual indentation</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E125 (^) continuation line with same indent as next logical line/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E125 (^)    continuation line with same indent as next logical line</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E126 (*^) continuation line over-indented for hanging indent/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E126 (*^)   continuation line over-indented for hanging indent</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E127 (^) continuation line over-indented for visual indent/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E127 (^)    continuation line over-indented for visual indent</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E128 (^) continuation line under-indented for visual indent/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E128 (^)    continuation line under-indented for visual indent</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E129 (^) visually indented line with same indent as next logical line/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E129 (^)    visually indented line with same indent as next logical line</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E131 (^) continuation line unaligned for hanging indent/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E131 (^)    continuation line unaligned for hanging indent</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E1 Indentation/Entry/E133 (*) closing bracket is missing indentation/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E133 (*)    closing bracket is missing indentation</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/E2 Whitespace/1'>
+E2 Whitespace
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_E2 Whitespace/Entry/E201 whitespace after ‘(‘/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E201 whitespace after ‘(‘</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E202 whitespace before ‘)’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E202 whitespace before ‘)’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E203 whitespace before ‘:’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E203 whitespace before ‘:’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E211 whitespace before ‘(‘/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E211 whitespace before ‘(‘</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E221 multiple spaces before operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E221 multiple spaces before operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E222 multiple spaces after operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E222 multiple spaces after operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E223 tab before operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E223 tab before operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E224 tab after operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E224 tab after operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E225 missing whitespace around operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E225 missing whitespace around operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E226 (*) missing whitespace around arithmetic operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E226 (*)    missing whitespace around arithmetic operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E227 missing whitespace around bitwise or shift operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E227 missing whitespace around bitwise or shift operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E228 missing whitespace around modulo operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E228 missing whitespace around modulo operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E231 missing whitespace after ‘,’, ‘;’, or ‘:’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E231 missing whitespace after ‘,’, ‘;’, or ‘:’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E241 (*) multiple spaces after ‘,’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E241 (*)    multiple spaces after ‘,’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E242 (*) tab after ‘,’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E242 (*)    tab after ‘,’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E251 unexpected spaces around keyword %2F parameter equals/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E251 unexpected spaces around keyword / parameter equals</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E261 at least two spaces before inline comment/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E261 at least two spaces before inline comment</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E262 inline comment should start with ‘# ‘/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E262 inline comment should start with ‘# ‘</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E265 block comment should start with ‘# ‘/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E265 block comment should start with ‘# ‘</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E266 too many leading ‘#’ for block comment/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E266 too many leading ‘#’ for block comment</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E271 multiple spaces after keyword/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E271 multiple spaces after keyword</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E272 multiple spaces before keyword/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E272 multiple spaces before keyword</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E273 tab after keyword/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E273 tab after keyword</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E274 tab before keyword/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E274 tab before keyword</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E2 Whitespace/Entry/E275 missing whitespace after keyword/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E275 missing whitespace after keyword</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/E3 Blank line/1'>
+E3 Blank line
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_E3 Blank line/Entry/E301 expected 1 blank line, found 0/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E301 expected 1 blank line, found 0</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E3 Blank line/Entry/E302 expected 2 blank lines, found 0/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E302 expected 2 blank lines, found 0</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E3 Blank line/Entry/E303 too many blank lines (3)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E303 too many blank lines (3)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E3 Blank line/Entry/E304 blank lines found after function decorator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E304 blank lines found after function decorator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E3 Blank line/Entry/E305 expected 2 blank lines after end of function or class/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E305 expected 2 blank lines after end of function or class</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E3 Blank line/Entry/E306 expected 1 blank line before a nested definition/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E306 expected 1 blank line before a nested definition</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/E4 Import/1'>
+E4 Import
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_E4 Import/Entry/E401 multiple imports on one line/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E401 multiple imports on one line</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E4 Import/Entry/E402 module level import not at top of file/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E402 module level import not at top of file</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/E5 Line length/1'>
+E5 Line length
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_E5 Line length/Entry/E501 (^) line too long (82 &gt; 79 characters)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E501 (^)    line too long (82 &gt; 79 characters)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E5 Line length/Entry/E502 the backslash is redundant between brackets/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E502 the backslash is redundant between brackets</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/E7 Statement/1'>
+E7 Statement
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_E7 Statement/Entry/E701 multiple statements on one line (colon)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E701 multiple statements on one line (colon)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E702 multiple statements on one line (semicolon)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E702 multiple statements on one line (semicolon)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E703 statement ends with a semicolon/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E703 statement ends with a semicolon</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E704 (*) multiple statements on one line (def)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E704 (*)    multiple statements on one line (def)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E711 (^) comparison to None should be ‘if cond is None:’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E711 (^)    comparison to None should be ‘if cond is None:’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E712 (^) comparison to True should be ‘if cond is True:’ or ‘if cond:’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E712 (^)    comparison to True should be ‘if cond is True:’ or ‘if cond:’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E713 test for membership should be ‘not in’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E713 test for membership should be ‘not in’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E714 test for object identity should be ‘is not’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E714 test for object identity should be ‘is not’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E721 (^) do not compare types, use ‘isinstance()’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E721 (^)    do not compare types, use ‘isinstance()’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E722 do not use bare except, specify exception instead/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E722 do not use bare except, specify exception instead</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E731 do not assign a lambda expression, use a def/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E731 do not assign a lambda expression, use a def</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E741 do not use variables named ‘l’, ‘O’, or ‘I’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E741 do not use variables named ‘l’, ‘O’, or ‘I’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E742 do not define classes named ‘l’, ‘O’, or ‘I’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E742 do not define classes named ‘l’, ‘O’, or ‘I’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E7 Statement/Entry/E743 do not define functions named ‘l’, ‘O’, or ‘I’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E743 do not define functions named ‘l’, ‘O’, or ‘I’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/E9 Runtime/1'>
+E9 Runtime
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_E9 Runtime/Entry/E901 SyntaxError or IndentationError/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E901 SyntaxError or IndentationError</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_E9 Runtime/Entry/E902 IOError/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>E902 IOError</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/W1 Indentation warning/1'>
+W1 Indentation warning
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_W1 Indentation warning/Entry/W191 indentation contains tabs/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W191 indentation contains tabs</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/W2 Whitespace warning/1'>
+W2 Whitespace warning
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_W2 Whitespace warning/Entry/W291 trailing whitespace/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W291 trailing whitespace</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W2 Whitespace warning/Entry/W292 no newline at end of file/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W292 no newline at end of file</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W2 Whitespace warning/Entry/W293 blank line contains whitespace/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W293 blank line contains whitespace</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/W3 Blank line warning/1'>
+W3 Blank line warning
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_W3 Blank line warning/Entry/W391 blank line at end of file/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W391 blank line at end of file</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/W5 Line break warning/1'>
+W5 Line break warning
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_W5 Line break warning/Entry/W503 (*) line break before binary operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W503 (*) line break before binary operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W5 Line break warning/Entry/W504 (*) line break after binary operator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W504 (*) line break after binary operator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W5 Line break warning/Entry/W505 (*^) doc line too long (82 &gt; 79 characters)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W505 (*^) doc line too long (82 &gt; 79 characters)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/W6 Deprecation warning/1'>
+W6 Deprecation warning
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_W6 Deprecation warning/Entry/W601 .has_key() is deprecated, use &quot;in&quot;/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W601 .has_key() is deprecated, use &quot;in&quot;</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W6 Deprecation warning/Entry/W602 deprecated form of raising exception/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W602 deprecated form of raising exception</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W6 Deprecation warning/Entry/W603 &quot;&lt;&gt;&quot; is deprecated, use &quot;!=&quot;/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W603 &quot;&lt;&gt;&quot; is deprecated, use &quot;!=&quot;</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W6 Deprecation warning/Entry/W604 backticks are deprecated, use ‘repr()’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W604 backticks are deprecated, use ‘repr()’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W6 Deprecation warning/Entry/W605 invalid escape sequence ‘x’/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W605 invalid escape sequence ‘x’</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_W6 Deprecation warning/Entry/W606 ‘async’ and ‘await’ are reserved keywords starting with Python 3.7/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>W606 ‘async’ and ‘await’ are reserved keywords starting with Python 3.7</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='category'>
+<h2 id='//dash_ref/Category/Flake8/1'>
+Flake8
+</h2>
+<div class='scrollable'>
+<table>
+<tr id='//dash_ref_Flake8/Entry/F401 module imported but unused/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F401 module imported but unused</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F402 import module from line N shadowed by loop variable/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F402 import module from line N shadowed by loop variable</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F403 ‘from module import *’ used; unable to detect undefined names/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F403 ‘from module import *’ used; unable to detect undefined names</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F404 future import(s) name after other statements/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F404 future import(s) name after other statements</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F405 name may be undefined, or defined from star imports: module/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F405 name may be undefined, or defined from star imports: module</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F406 ‘from module import *’ only allowed at module level/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F406 ‘from module import *’ only allowed at module level</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F407 an undefined future feature name was imported/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F407 an undefined <strong>future</strong> feature name was imported</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F501 invalid % format literal/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F501 invalid % format literal</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F502 % format expected mapping but got sequence/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F502 % format expected mapping but got sequence</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F503 % format expected sequence but got mapping/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F503 % format expected sequence but got mapping</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F504 % format unused named arguments/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F504 % format unused named arguments</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F505 % format missing named arguments/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F505 % format missing named arguments</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F506 % format mixed positional and named arguments/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F506 % format mixed positional and named arguments</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F507 % format mismatch of placeholder and argument count/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F507 % format mismatch of placeholder and argument count</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F508 % format with * specifier requires a sequence/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F508 % format with * specifier requires a sequence</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F509 % format with unsupported format character/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F509 % format with unsupported format character</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F521 format(...) invalid format string/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F521 format(...) invalid format string</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F522 format(...) unused named arguments/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F522 format(...) unused named arguments</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F523 format(...) unused positional arguments/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F523 format(...) unused positional arguments</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F524 format(...) missing argument/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F524 format(...) missing argument</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F525 format(...) mixing automatic and manual numbering/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F525 format(...) mixing automatic and manual numbering</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F541 f-string without any placeholders/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F541 f-string without any placeholders</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F601 dictionary key name repeated with different values/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F601 dictionary key name repeated with different values</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F602 dictionary key variable name repeated with different values/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F602 dictionary key variable name repeated with different values</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F621 too many expressions in an assignment with star-unpacking/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F621 too many expressions in an assignment with star-unpacking</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F622 two or more starred expressions in an assignment (a, *b, *c = d)/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F622 two or more starred expressions in an assignment (a, *b, *c = d)</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F631 assertion test is a tuple, which is always True/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F631 assertion test is a tuple, which is always True</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F632 use ==%2F!= to compare str, bytes, and int literals/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F632 use ==/!= to compare str, bytes, and int literals</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F633 use of &gt;&gt; is invalid with print function/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F633 use of &gt;&gt; is invalid with print function</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F634 if test is a tuple, which is always True/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F634 if test is a tuple, which is always True</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F701 a break statement outside of a while or for loop/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F701 a break statement outside of a while or for loop</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F702 a continue statement outside of a while or for loop/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F702 a continue statement outside of a while or for loop</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F703 a continue statement in a finally block in a loop/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F703 a continue statement in a finally block in a loop</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F704 a yield or yield from statement outside of a function/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F704 a yield or yield from statement outside of a function</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F705 a return statement with arguments inside a generator/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F705 a return statement with arguments inside a generator</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F706 a return statement outside of a function%2Fmethod/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F706 a return statement outside of a function/method</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F707 an except: block as not the last exception handler/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F707 an except: block as not the last exception handler</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F721 syntax error in doctest/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F721 syntax error in doctest</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F722 syntax error in forward annotation/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F722 syntax error in forward annotation</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F723 syntax error in type comment/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F723 syntax error in type comment</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F811 redefinition of unused name from line N/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F811 redefinition of unused name from line N</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F812 list comprehension redefines name from line N/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F812 list comprehension redefines name from line N</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F821 undefined name name/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F821 undefined name name</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F822 undefined name name in all/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F822 undefined name name in <strong>all</strong></p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F823 local variable name … referenced before assignment/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F823 local variable name … referenced before assignment</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F831 duplicate argument name in function definition/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F831 duplicate argument name in function definition</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F841 local variable name is assigned to but never used/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F841 local variable name is assigned to but never used</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+<tr id='//dash_ref_Flake8/Entry/F901 raise NotImplemented should be raise NotImplementedError/0'>
+<td class='description' colspan='2'>
+<div class='name'><p>F901 raise NotImplemented should be raise NotImplementedError</p>
+</div>
+<div class='notes'></div>
+</td>
+</tr>
+</table>
+</div>
+</section>
+<section class='notes'>
+<h2>Notes</h2>
+<p>In the default configuration, the checks E121, E123, E126, E133, E226, E241,
+E242, E704, W503, W504 and W505 are ignored because they are not rules
+unanimously accepted, and PEP 8 does not enforce them. Please note that if
+the option –ignore=errors is used, the default configuration will be
+overridden and ignore only the check(s) you skip. The check W503 is mutually
+exclusive with check W504. The check E133 is mutually exclusive with check
+E123. Use switch --hang-closing to report E133 instead of E123. Use switch
+--max-doc-length=n to report W505.</p>
+
+</section>
+</article>
+<footer>
+Generated with <a onclick="window.dash.openExternal_(this.href); return false;" href='https://github.com/Kapeli/cheatset#readme'>cheatset</a>
+</footer>
+</body>
+</html>
