@@ -9,3 +9,8 @@ cheatset generate pep257.rb
 
 ![](screenshot.png)
 
+If you use [Alfred](https://www.alfredapp.com/) and the 
+[Dash workflow](https://github.com/Kapeli/Dash-Alfred-Workflow) then these will
+show up when you enter _pep257 ..._.
+
+![](screenshot_alfred.png)
